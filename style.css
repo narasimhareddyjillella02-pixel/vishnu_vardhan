@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #ff6b6b 0%, #b22222 100%);
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -62,12 +62,12 @@ h1 {
 
 .task-input:focus {
     outline: none;
-    border-color: #667eea;
+    border-color: #e53935;
 }
 
 .add-btn {
     padding: 12px 25px;
-    background: #667eea;
+    background: #e53935;
     color: white;
     border: none;
     border-radius: 8px;
@@ -78,7 +78,7 @@ h1 {
 }
 
 .add-btn:hover {
-    background: #5568d3;
+    background: #d32f2f;
 }
 
 .add-btn:active {
@@ -104,14 +104,14 @@ h1 {
 }
 
 .filter-btn:hover {
-    border-color: #667eea;
-    color: #667eea;
+    border-color: #e53935;
+    color: #e53935;
 }
 
 .filter-btn.active {
-    background: #667eea;
+    background: #e53935;
     color: white;
-    border-color: #667eea;
+    border-color: #e53935;
 }
 
 .task-list {
@@ -162,7 +162,7 @@ h1 {
     height: 20px;
     margin-right: 15px;
     cursor: pointer;
-    accent-color: #667eea;
+    accent-color: #e53935;
 }
 
 .task-text {
@@ -230,10 +230,10 @@ h1 {
 }
 
 .task-list::-webkit-scrollbar-thumb {
-    background: #667eea;
+    background: #e53935;
     border-radius: 10px;
 }
 
 .task-list::-webkit-scrollbar-thumb:hover {
-    background: #5568d3;
+    background: #d32f2f;
 }
